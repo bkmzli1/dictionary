@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="37.0" prefWidth="424.0"
+            xmlns="http://javafx.com/javafx/8.0.172-ea" fx:controller="ru.bkmz.lib.controllers.ControllerDelete">
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+    <children>
+        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0"
+              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+                    <children>
+                        <TextField fx:id="idTex" cacheShape="false" centerShape="false" focusTraversable="false"
+                                   maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="id"
+                                   scaleShape="false" HBox.hgrow="ALWAYS">
+                            <opaqueInsets>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </HBox.margin>
+                        </TextField>
+                        <Button fx:id="deleteButton" maxHeight="1.7976931348623157E308"
+                                maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#deleteButton"
+                                text="delete" HBox.hgrow="ALWAYS">
+                            <opaqueInsets>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="menuButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                                mnemonicParsing="false" onAction="#menuButton" text="menu" HBox.hgrow="ALWAYS">
+                            <opaqueInsets>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </opaqueInsets>
+                            <HBox.margin>
+                                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+            <opaqueInsets>
+                <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+            </opaqueInsets>
+        </VBox>
+    </children>
+    <opaqueInsets>
+        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0"/>
+    </opaqueInsets>
+</AnchorPane>

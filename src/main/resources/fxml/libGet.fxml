@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="326.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            fx:controller="ru.bkmz.lib.controllers.ControllerGet">
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+    <children>
+        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0"
+              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+                    <children>
+                        <TextArea fx:id="txt" cacheShape="false" centerShape="false" focusTraversable="false"
+                                  maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="url"
+                                  scaleShape="false" HBox.hgrow="ALWAYS">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                            </HBox.margin>
+                        </TextArea>
+                        <TextArea fx:id="txtId" cacheShape="false" centerShape="false" focusTraversable="false"
+                                  maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="id"
+                                  scaleShape="false">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                            </HBox.margin>
+                        </TextArea>
+                    </children>
+                    <padding>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0"/>
+                    </padding>
+                </HBox>
+                <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Button fx:id="search" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                                mnemonicParsing="false" onAction="#onSearch" prefWidth="152.0" text="get">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="menuButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                                mnemonicParsing="false" onAction="#menuButton" text="menu" HBox.hgrow="ALWAYS">
+                            <HBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
