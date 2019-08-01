@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 
 public class GetDictionary {
+    private String abc = "А Б В Г Д Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Э Ю".replace(" ", "");
     public String[] urls = {"https://ravesli.com/slovar-programmista-sleng-kotoryj-dolzhen-znat-kazhdyj-koder/",
             "http://jtdigest.narod.ru/kollection/ut88/slovar.htm",
             "http://slavan53.ru/slovar-programmista/"},
@@ -22,7 +23,7 @@ public class GetDictionary {
             values = new ArrayList<String>(),
             url = new ArrayList<String>(),
             urlOut;
-    private String abc = "А Б В Г Д Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Э Ю".replace(" ", "");
+
     private Text text;
     private int allOtstyp = 160;
 
