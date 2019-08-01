@@ -9,7 +9,7 @@ import ru.bkmz.lib.table.BD;
 import ru.bkmz.lib.table.Table;
 
 /*TODO: 01.08.2019
- * -увеличь список сайтов и оброботку к ним
+ * -увеличь список сайтов и оброботку к ним!
  *
  * */
 public class MainDictionary extends Application {
